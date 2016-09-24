@@ -3,6 +3,6 @@ console.log('Loaded!');
 
 var img = document.getElementById("deepa");
 img.onclick = function(){
-    img.style.marginleft='100px';
+    img.style.marginleft="100px";
     
 };
