@@ -13,7 +13,7 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
   
 });
-app.get('/home/apcoer/webapp/imad-2016-app/ui/artical-one.html', function (req, res) {
+app.get('https://cloud.imad.hasura.io/code/files/ui%2Fartical-one.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artical-one.html'));
 });
 
