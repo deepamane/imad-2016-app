@@ -17,10 +17,10 @@ app.get('/ui/artical-one.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artical-one.html'));
 });
 
-
 app.get('/ui/artical-two.html', function (req, res) {
-  res.send('this is the artical two');
+  res.sendFile(path.join(__dirname, 'ui', 'artical-two.html'));
 });
+
 
 
 app.get('/ui/madi.png', function (req, res) {
