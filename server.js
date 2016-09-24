@@ -19,7 +19,7 @@ app.get('/ui/Fartical-one.html', function (req, res) {
 
 
 app.get('/artical-two.html', function (req, res) {
-  res.send("this is the artical two");
+  res.send('this is the artical two');
 });
 
 
