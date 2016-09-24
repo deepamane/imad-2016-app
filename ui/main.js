@@ -3,6 +3,6 @@ console.log('Loaded!');
 
 var img = document.getElementById("IMG-0601");
 img.onclick = function(){
-    img.style.marginright='100px';
+    img.style.marginleft='100px';
     
 };
