@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/ui/artical-two.html', function (req, res) {
+app.get('/home/apcoer/webapp/imad-2016-app/ui/artical-two.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artical-two.html'));
 });
 
