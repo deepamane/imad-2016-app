@@ -1,16 +1,14 @@
-<<<<<<< HEAD
 
-* Layout */
-=======
+
 * Layout *
->>>>>>> 534eb2ade5e70d4cb1aa905c48e3bdb3f28902de
+
 body {
+    max-width:800px;
     font:normal 12px/1.6em Arial, Helvetica, sans-serif;
 	color:#2a3845;
 	margin:0;
 	padding:0;
 	background:#FFFFFF;
-<<<<<<< HEAD
 }
 
 p {
