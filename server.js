@@ -28,17 +28,17 @@ app.get('/ui/main.js', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/ui/images.jpg', function (req, res) {
+app.get('/home/apcoer/Downloads/imad-2016-app-master/ui/images.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'images.jpg'));
 });
 
-app.get('/ui/IMG_0601.png', function (req, res) {
+app.get('/home/apcoer/Downloads/imad-2016-app-master/ui/IMG_0601.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_0601.JPG'));
+});
+app.get('/home/apcoer/Downloads/imad-2016-app-master/ui/IMG_0601.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_0601.png'));
 });
-app.get('/ui/5.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '5.jpg'));
-});
-app.get('/ui/index.jpg', function (req, res) {
+app.get('/home/apcoer/Downloads/imad-2016-app-master/ui/index.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.jpg'));
 });
 app.get('/home/apcoer/webapp/imad-2016-app/ui/images.jpg', function (req, res) {
